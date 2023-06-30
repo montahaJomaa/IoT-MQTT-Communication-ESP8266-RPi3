@@ -7,15 +7,15 @@ const int ledPin = 2; // This code uses the built-in led for visual feedback tha
 const int buttonPin = 0; // Connect your button to pin #13
 
 // WiFi
-// Make sure to update this for your own WiFi network!
+// WiFi Credentials
 const char* ssid = "xxxx";
 const char* wifi_password = "xxxxx;
 
 // MQTT
-// Make sure to update this for your own MQTT Broker!
+// MQTT Broker Credentials
 const char* mqtt_server = "xxxxxx";
 const char* mqtt_topic = "test";
-// The client id identifies the ESP8266 device. Think of it a bit like a hostname (Or just a name, like Greg).
+// The client id identifies the ESP8266 device.
 const char* clientID = "MONTA1";
 
 // Initialise the Pushbutton Bouncer object
